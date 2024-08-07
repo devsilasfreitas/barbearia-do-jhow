@@ -1,0 +1,43 @@
+#sobre-nos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+}
+
+#sobre-nos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+#sobre-nos h2 {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+#sobre-nos > div > div {
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+}
+
+#sobre-nos span {
+    color: var(--primary-color);
+}
+
+#sobre-nos h4 {
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#sobre-nos img {
+    width: 600px;
+}

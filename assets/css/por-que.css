@@ -1,0 +1,57 @@
+#por-que {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 100px;
+}
+
+#por-que h2 {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+#por-que p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#por-que div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+}
+
+#por-que div div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#por-que div div img {
+    width: 62px;
+}
+
+#por-que div div h3 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+#por-que div div h3::after {
+    content: '';
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 4px;
+    background-color: var(--primary-color);
+    margin-top: 10px;
+}
+
+#por-que div div p {
+    font-weight: 400;
+    font-size: 16px;
+}

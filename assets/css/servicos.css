@@ -1,0 +1,54 @@
+#servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#servicos h2 {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+#servicos p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#servicos div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    margin: 50px 10vw;
+    gap: 20px;
+}
+
+#servicos div div {
+    display: grid;
+    grid-template-areas: 'img h4' 'img p' 'img span';
+    gap: 10px;
+}
+
+#servicos div div img {
+    grid-area: img;
+    width: 80px;
+}
+
+#servicos div div h4 {
+    grid-area: h4;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+#servicos div div p {
+    grid-area: p;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#servicos div div span {
+    grid-area: span;
+    font-weight: 800;
+    font-size: 24px;
+}
