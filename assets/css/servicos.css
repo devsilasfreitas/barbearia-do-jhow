@@ -52,3 +52,39 @@
     font-weight: 800;
     font-size: 24px;
 }
+
+@media screen and (max-width: 768px) {
+    #servicos {
+        margin-top: 150px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+
+    #servicos div {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    #servicos div div {
+        grid-template-areas: 'img' 'h4' 'p' 'span';
+        gap: 5px;
+    }
+
+    #servicos div div img {
+        width: 48px;
+        margin: 0 auto;
+    }
+
+    #servicos div div h4 {
+        font-size: 20px;
+    }
+
+    #servicos div div p {
+        font-size: 16px;
+    }
+
+    #servicos div div span {
+        font-size: 20px;
+    }
+}

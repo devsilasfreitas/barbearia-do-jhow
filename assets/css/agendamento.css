@@ -110,3 +110,41 @@
     width: 300px;
     height: 4rem;
 }
+
+@media screen and (max-width: 768px) {
+    #agendamento {
+        grid-template-columns: 1fr;
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+    #agendamento div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0px;
+    }
+
+    #agendamento div h5 {
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    #agendamento div p {
+        font-size: 16px;
+        margin: 0 auto;
+    }
+
+    #agendamento form {
+        width: 90%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'full-name' 'subject' 'phone' 'email' 'p' 'message' 'button';
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    #agendamento form input, textarea {
+        width: 100%;
+        margin: 5px auto;
+    }
+}
